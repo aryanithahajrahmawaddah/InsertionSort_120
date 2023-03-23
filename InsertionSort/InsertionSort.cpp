@@ -22,16 +22,20 @@ void input()
 		}
 	}
 	cout << endl;					           // Membuat jarak per baris program
-	cout << "====================="	<< endl;   // Membuat tampilan susunan data element array
-	cout << "Masukan element array" << endl;   
-	cout << "=====================" << endl; 
+	cout << "=====================" << endl;   // Membuat tampilan susunan data element array
+	cout << "Masukan element array" << endl;
+	cout << "=====================" << endl;
 
 	// Menggunakan perulangan for untuk menyimpan data pada array
 	for (int i = 0; i < n; i++)
 	{
-		cout << "Data ke-" << (i + 1) <<  ": ";		 // Memasukan atau menginput nilai data n
+		cout << "Data ke-" << (i + 1) << ": ";		 // Memasukan atau menginput nilai data n
 		cin >> arr[i];								 // Memasukan nilai data n kedalam array arr
 
 	}
+}
+// Procedure Insertionsort
+void insertionsort()
+{
 
 }
