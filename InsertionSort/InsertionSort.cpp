@@ -39,4 +39,6 @@ void insertionsort()
 {
 
 	int temp;			// Membuat variabel data temporer atau menyimpan sementara
+	int j = 0;				// Membuat variabel j sebagai penanda
+
 }
